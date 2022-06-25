@@ -2,3 +2,4 @@
 jobandtalent*
 resources.txt
 *.db
+__pycache__/
