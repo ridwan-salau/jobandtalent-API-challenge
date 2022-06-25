@@ -3,3 +3,6 @@ resources.txt
 jobandtalent.keys
 tests/*
 *.db
+htmlcov
+.coverage
+.DS_Store

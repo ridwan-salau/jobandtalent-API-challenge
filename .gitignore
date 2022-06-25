@@ -3,3 +3,6 @@ jobandtalent*
 resources.txt
 *.db
 __pycache__/
+htmlcov
+.coverage
+.DS_Store
