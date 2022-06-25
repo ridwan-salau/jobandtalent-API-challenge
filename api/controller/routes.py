@@ -10,4 +10,6 @@ api = Api(api_blueprint)
 
 # api.init_app(connected_bp)
 
-api_blueprint.register_blueprint(connected_bp,)
+api_blueprint.register_blueprint(
+    connected_bp,
+)

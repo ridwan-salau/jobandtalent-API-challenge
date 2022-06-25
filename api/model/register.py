@@ -8,4 +8,4 @@ class RegisterModel(db.Model):
     dev2 = db.Column(db.String(20), nullable=False)
 
     def __repr__(self):
-        return '<Register %r>' % self.dev1 + self.dev2
+        return "<Register %r>" % self.dev1 + self.dev2
