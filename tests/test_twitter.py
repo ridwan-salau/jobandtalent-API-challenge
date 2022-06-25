@@ -169,10 +169,7 @@ class TestTwitter(unittest.TestCase):
                 "exp_output": {"connected": False},
             },
         ]
-        dev1 = "ridzy619"
-        dev2 = "ericokwechime"
-
-        response = devs_mutually_connected(dev1, dev2)
+        
 
         for test_dict in test_list:
             input = test_dict["input"]
