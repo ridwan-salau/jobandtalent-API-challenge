@@ -68,5 +68,25 @@ This project implements two endpoints that `/connected/realtime/dev1/dev2` `/con
 - Nginx as a reverse-proxy server
 - Gunicorn as an application webserver
 
-## How to Run Application
+## How to Run Test
 
+To test the application, run the following commang:
+
+```docker compose -f docker-compose.test.yml up```
+
+# How to Run Application
+
+To run the application, run the following sets of command: first to build the images, then to run the containers:
+
+```docker compose build```
+
+```docker compose up```
+
+# TO DOS
+
+- Add test coverage for other parts of the code
+- Document functions and modules
+- Add type-hinting to function definitions
+- Upload container image to Docker Registry
+- Implement CI/CD with GitHub Actions to update image with latest
+- Handle some http exceptions with Twitter and GitHub APIs
