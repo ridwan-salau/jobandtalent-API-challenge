@@ -82,7 +82,7 @@ To run the application, run the following sets of command: first to build the im
 
 ```docker compose up```
 
-# TO DOS
+# TODOS
 
 - Add test coverage for other parts of the code
 - Document functions and modules
